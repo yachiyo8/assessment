@@ -115,11 +115,6 @@ function assessment(userName) {
   return result;
 }
 
-
-
-
-
-
 // 動作確認 *太郎が2回目でも同じ結果が出ることを目視確認する
 /* console.log(assessment('太郎'));
 console.log(assessment('二郎'));
@@ -134,7 +129,7 @@ function test() {
   console.log('太郎');
   console.assert(
     assessment('太郎') ===
-    '太郎のいいところは決断力です。太郎がする決断にいつも助けられる人がいます。',
+    '太郎のいいところはユニークさです。太郎だけのその特徴が皆を楽しくさせます。',
     '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
   );
 
